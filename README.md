@@ -47,13 +47,17 @@ renv::restore()
 5. Open `0_prepare_data.R` and `1_run_harmonization` in run them a sequential order. Both scripts are self-explanatory containing comments to guide through the different steps.
 
 ## Input data options
-The workflow uses two diatom datasets as examples to extract the longlist of names. However 
+The workflow uses two diatom datasets as examples to extract the longlist of names. However, any input file (e.g., `csv`) containing at least three columns are possible to load for use:
+
+- **`diatom_id`**: simple numbering of the rows/ taxa in the list
+- **`user_taxa`**: taxon names, preferably including the author's names
+- **`dataset`**: name of the source locality or collection unit (e.g. core code or surface sample)
 
 ---
 
 ## Contributing
-For questions, feedback, or contributions to the Diatom Dictionary, please contact:\
-- [Xavier Benito](mailto:xavier.benito@irta.cat), https://xbenitogranell.github.io *Marine and Continental Waters Programme, Institute for Agrifood Research and Technology (IRTA), Spain*\
+For questions, feedback, or contributions to the Diatom Dictionary, please contact:
+- [Xavier Benito](mailto:xavier.benito@irta.cat), https://xbenitogranell.github.io *Marine and Continental Waters Programme, Institute for Agrifood Research and Technology (IRTA), Spain*
 - [Anna Tichá](mailto:anna.ticha@natur.cuni.cz), *Charles University, Prague, Czechia*
 
 ---
